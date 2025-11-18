@@ -15,8 +15,8 @@ int main() {
         fgets(operator, maxuserinput, stdin);
         printf("type in the second number >> ");
         fgets(inputnumber1, maxuserinput, stdin);
-        int number0 = inputnumber0 - "0",number1 = inputnumber1 - "0";
-        if (operator == "+") {
+        char plus="+",minus="-",divide="/",multiply="*";
+        if (strcmp()) {
             int eval = number0+number1;
             printf("%i+%i=%i\n", number0, number1, eval);
         } else if (operator == "-") {
